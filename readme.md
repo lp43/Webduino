@@ -2,6 +2,8 @@
 
 This is an Arduino-based Web Server library, originally developed for a class at NYC Resistor. It's called Webduino, and it's an extensible web server library for the Arduino using the Wiznet-based Ethernet shields. It's released under the MIT license allowing all sorts of reuse.
 
+NEW: In 1.7.1 version, modified Ethernet shield to WiFi Shield.
+
 ## Features
 
 - URL parameter parsing
@@ -40,6 +42,9 @@ Shields using the Microchip ENC28J60 chip won't work with the library as that re
 the TCP/IP stack.
 
 ## Version history
+
+### 1.7.1 released in June 2015
+- include WiFi.h to use WiFi Shield.
 
 ### 1.7 released in Jan 2012
 
